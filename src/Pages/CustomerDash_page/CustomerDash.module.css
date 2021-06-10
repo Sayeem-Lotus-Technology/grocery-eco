@@ -1,0 +1,40 @@
+
+.customerdash{
+    padding: 40px 40px 80px 40px;
+}
+.allinfo{
+    width: 100%;
+} 
+.dash{
+    padding-top: 30px;   
+}
+.span{
+   color:#23A6F0 ;
+   margin-left:5px;
+   margin-right: 5px;
+}
+
+.page_header{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #081F32;
+}
+
+@media(max-width: 991px) {
+    .allinfo{
+        margin-left:0px;
+        width: 100%;
+        margin-top: 0px;
+    } 
+    .allinfo{
+        padding-top: 40px;
+    }
+ }
+  
+ @media(max-width:360px){
+    .customerdash{
+        padding: 15px 15px 80px 15px;
+    }
+ }

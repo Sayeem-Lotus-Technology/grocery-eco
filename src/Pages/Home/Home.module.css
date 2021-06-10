@@ -1,0 +1,94 @@
+.homepage{
+
+}
+
+.slide{
+    padding: 5px;
+}
+.scroll{
+    overflow-x: scroll;
+
+}
+.slideContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .example::-webkit-scrollbar {
+    display: none;
+  } */
+
+/* .slideContainer::-webkit-scrollbar{
+    display: none;
+} */
+
+/* .slideview{
+    max-width: 1200px;  
+
+}
+.slideScroll{
+    overflow-x: scroll;
+} */
+
+.productCategory{
+    padding: 0 80px;
+}
+
+.categoeryContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.displayCart{
+    display: flex;
+    flex-wrap: wrap;
+}
+.singleCart{
+    padding: 10px;
+}
+
+.seeAll{
+    color: green;
+    cursor: pointer;
+}
+
+.coverImageContainer{
+    position: relative;
+}
+
+/* [class*="col-"] {
+    margin-bottom: 10px;
+} */
+
+/* div.section > div:first-child */
+
+
+div.coverImageContainer> img{
+    width: 100%;
+    object-fit: cover;
+    height: 270px;
+}
+.giftImageContainer img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.coverSearch{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.searchContainer{
+    width: 70%;
+    margin-top: 15px;
+}

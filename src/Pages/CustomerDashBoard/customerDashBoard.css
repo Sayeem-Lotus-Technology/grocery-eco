@@ -1,0 +1,63 @@
+.customerDashBoard{
+
+}
+
+.customerDashBoard .dashboardContainer{
+    display: flex;
+    background-color: white;
+}
+.customerDashBoard .dashboardSidebar{
+
+}
+.customerDashBoard .dashboardContent{
+    padding: 30px;
+    width: 100%;
+}
+
+.customerDashBoard .wrapper{
+    border-radius: 10px;
+    background-color: #4F4F4F;
+    padding: 10px;
+    width: 250px
+}
+
+.customerDashBoard .imgWrapper{
+    background: rgb(53 53 53);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    color: rgb(200 200 200);
+    margin-bottom: 32px
+}
+
+.customerDashBoard  .imgWrapper img{
+    width: 100px;
+    height: 100px;
+}
+
+.customerDashBoard .title{
+    font-size: 16px;
+    margin: 6px 0px -2px;
+}
+.customerDashBoard .subTitle{
+    font-size: 8px;
+}
+.customerDashBoard .listWrapper{
+    font-weight: 500;
+    font-size: 16px;
+    color: #C8C8C8;
+    list-style: none;
+}
+.customerDashBoard .listItem{
+    margin: 12px 0px;
+    padding: 3px;
+    cursor: pointer;
+}
+.customerDashBoard .listItem:hover{
+    color: white;
+}
+.customerDashBoard .active {
+    background-color: white;
+    color: #219653;
+    border-radius: 3px;
+}

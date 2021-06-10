@@ -1,0 +1,483 @@
+/* customer dashboard */
+p{
+    margin: 0px;
+}
+.customer_background{
+    background: #F5F7FF;
+    padding-top: 10px;
+    padding-bottom: 60px; 
+    border-radius: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.dash_menu{
+    height: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #616161;
+    text-decoration: none;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.dash_menu:hover{
+    background: #dfdddd;
+    color: #616161;
+    text-decoration: none;
+}
+
+.visited_dash_menu{
+    color: #081F32;
+    border-left: 2px solid  #23A6F0;
+    transition: all 0.2s;
+}
+.visited_dash_menu:hover{
+    text-decoration: none;
+    color: #081F32;
+}
+
+/* Account information */
+
+
+.account_info{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #081F32;
+    border-bottom: 1px solid #CACDD8;
+    padding-bottom: 16px;
+ }
+
+ .contact_info{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #081F32;
+    margin-top: 40px; 
+ }
+
+ .account_details{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;  
+    color: #616161;
+ }
+ .footer{
+    display : flex;
+    padding-top: 20px;
+  
+ }
+ .edit{ 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #23A6F0;
+ }
+ .change_pass{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #23A6F0;
+    margin-left: 23.6px;
+ }
+
+
+
+/* address Book */
+
+.address_detail{
+    display: flex;
+    margin-top: 20px;
+}
+.existing_address{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+  
+}
+.existing_address{
+    display: flex;
+    justify-content: space-between;
+}
+.address_name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #616161;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 7px 0px;
+}
+.address_number{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #616161;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 7px 0px;
+}
+
+.address_address{
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #081F32;
+}
+
+
+.edit_img{
+    border-style: none;
+    outline-style: none;
+    background-color: transparent;
+    margin-top: -5px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+.edit_img img{
+    height: 14px;
+    width: 14px;
+}
+.new_address{
+    border-style: none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    outline-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5B5B5B;
+}
+.new_address img{
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+
+/* Password Edit*/
+
+
+.dash_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #081F32;
+ }
+.dash_input_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #081F32;
+    padding-bottom: 15px;
+ }
+.star{
+    color: red;
+    margin-left: 5px;
+ }
+ .input_field{
+    padding-top: 20px;
+    max-width: 450px;
+ }
+ .input_field input{
+    width: 100%;
+    height: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #081F32;
+    border: 1px solid #A2A6B0;
+    background: #FFFFFF;
+    border: 1px solid #A2A6B0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline-style: none;
+    padding-left: 17px;
+    padding-right: 17px;
+    
+ }
+ .input_field button{
+    height: 50px;
+    width: 100%;
+    background: #23A6F0;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+ }
+
+/* personal Info */
+
+
+.radio_btn{
+    display: inline-flex;
+ }
+ .radio_field{
+    padding-top: 30px; 
+ }
+ .male_radio{
+     cursor: pointer;
+ }
+ .female_radio{
+    margin-left: 26px;
+    cursor: pointer;
+ }
+ .female_radio span{
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+ }
+ .male_radio span{
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+ }
+ .male_radio label{
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #000000;
+ }
+ .female_radio label{
+    margin-left: 11px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #000000;
+ }
+ .update_btn button{
+    height: 50px;
+    width: 100%;
+    background: #23A6F0;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+ }
+ .update_btn button:hover{
+     opacity: .8;
+    
+ }
+ .update_btn{
+    width: 151px;
+    height: 45px;
+    padding-top: 25px;
+ }
+
+
+
+ /* orderlist */
+
+.table_info{
+    overflow-x: scroll;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+    padding-bottom: 5px;
+}
+
+
+/* all status */
+
+.all_orders{
+    height:78px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 12px;
+    padding-right:12px;
+}
+
+.lalest_order{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #616161;
+}
+.history{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #616161;
+    margin-top:5px;
+}
+
+.all_status_btn{
+    padding:8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #616161;
+    }
+    .all_status_btn img{
+        height:18px;
+        width: 20px;
+        margin-right: 10px;
+    }
+
+/* table */
+ .listtable {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 700px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E8E8E8;
+  }
+  .listtable th {
+    background: #bae0f7;
+    border-top: 40px;
+    color: #23A6F0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 12px;
+  }
+  
+  .listtable td{
+    padding: 12px;
+  }
+  
+  .listtable tr:nth-child(even){ 
+    background-color: #FFFFFF;
+   
+  }
+
+  .listtable tr:nth-child(odd){
+    background: #ddeffc;
+    border-top: 1px solid #E8E8E8;
+    }
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+.table_data{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #081F32;
+
+}
+.table_date{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #616161;
+}
+
+
+@media(max-width: 991px) { 
+    
+}
+
+@media (max-width: 767px) { 
+
+    .details{
+        display: flex;  
+        flex-direction: column;
+    }
+    
+    .details_left{
+        width: 100%;
+    
+    }
+    .details_right{
+       width: 100%;
+       margin-top: 40px;
+       margin-left: 0px;
+    }
+
+    
+.address_detail{
+    display: flex;
+    flex-direction: column;
+}
+.new_address{
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+ }
+@media (max-width: 360px) { 
+    
+
+ }

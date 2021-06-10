@@ -1,0 +1,30 @@
+
+.product{
+   width: 383px;
+    height: 150px;
+    background: rgba(248, 164, 76, 0.1);
+    border: 1px solid rgba(248, 164, 76, 0.7);
+    box-sizing: border-box;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+  }
+ .product img{
+   object-fit: contain;
+    height: 125px;
+    padding: 0px 30px;
+ }
+ .product h1{
+   font-weight: 600;
+    color: #3E423F;
+    font-size: 25px
+ }
+ 
+ .slideContainer{
+  display: flex;
+  justify-content: space-between;
+
+}
+.slide{
+  padding: 5px;
+}

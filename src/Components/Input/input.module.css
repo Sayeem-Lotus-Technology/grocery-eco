@@ -1,0 +1,34 @@
+.customInput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.customInput input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333333;
+  font-size: 13px;
+  padding: 8px 0px;
+}
+.customInput label {
+  font-size: 14px;
+    font-weight: 600;
+}
+.customInput input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #333333;
+}
+.customInput input::placeholder{
+  opacity: .9;
+  font-size: 12px;
+}
+
+.customInput .border{
+  border: 1px solid #CACDD8;
+  border-radius: 5px;
+  padding: 4px 8px;
+}

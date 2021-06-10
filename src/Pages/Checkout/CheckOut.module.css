@@ -1,0 +1,29 @@
+.checkoutpage{
+    padding: 25px;
+}
+
+.check_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+
+@media(max-width: 991px) {
+    
+ }
+ @media(max-width: 767px) {
+    .checkoutpage{
+        padding: 15px;
+    }
+    
+}
+@media(max-width: 360px) {
+    .check_title{
+        font-size: 26;   
+    }
+}

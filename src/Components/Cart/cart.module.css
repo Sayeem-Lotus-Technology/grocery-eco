@@ -1,0 +1,34 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.cartContainer{
+    font-style: normal;
+    text-align: center;
+    color: #181725;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 18px;
+    padding:20px;
+    width: 200px;
+    cursor: pointer;
+}
+.cartContainer img{
+    height: 100px;
+    width: fit-content;
+}
+.cartContainer .title{
+    font-weight: 500;
+    font-size: 16px;
+}
+.cartContainer .text{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.cartContainer .price{
+    color: #181725;
+    font-weight: 600;
+    font-size: 18px;
+}
+

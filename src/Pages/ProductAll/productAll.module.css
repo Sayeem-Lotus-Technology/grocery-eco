@@ -1,0 +1,35 @@
+.productAll{
+    background: #F6F6F6;
+}
+.productAll .selectFormComponents{
+display: flex;
+justify-content: space-around;
+margin-bottom: 40px;
+}
+/* .productAll .selectBox{
+    width: 20%;
+
+} */
+/* .productAll .productDisplay{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productAll .productDisplay .cart:not(:nth-child(6n)){
+    width: 15%;
+    margin-top: 10px;
+    margin-right: 10px;
+} */
+
+.productAll .customRow [class*="col-"] {
+    margin-bottom: 10px;
+}
+
+
+.displayCart{
+    display: flex;
+    flex-wrap: wrap;
+}
+.signleCart{
+    padding: 10px;
+}

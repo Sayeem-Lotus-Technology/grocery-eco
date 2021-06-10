@@ -1,0 +1,15 @@
+
+.order_history{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+@media (max-width: 767px){
+    .order_history{
+        margin-top:40px;
+     }
+    
+
+}
+

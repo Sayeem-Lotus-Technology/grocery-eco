@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* *************************************************************************************** */
+/* import font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+img,
+div,
+figure,
+section,
+table,
+tbody,
+thead,
+label {
+  margin: 0;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #F6F6F6;
+}
+
+body.BackDropOpenPreventScroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.custom-container {
+  max-width:  1330px;
+}
+
+@media (max-width: 991px) {
+  .custom-container {
+    max-width: 100%
+  }
+}
