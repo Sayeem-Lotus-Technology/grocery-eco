@@ -55,6 +55,7 @@
 
 .coverImageContainer{
     position: relative;
+    margin: 12px 0px;
 }
 
 /* [class*="col-"] {
@@ -68,6 +69,7 @@ div.coverImageContainer> img{
     width: 100%;
     object-fit: cover;
     height: 270px;
+    border-radius: 5px;
 }
 .giftImageContainer img{
     width: 100%;

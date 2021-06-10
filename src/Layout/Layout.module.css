@@ -39,7 +39,7 @@ height: ;
     transition: all .1s linear
 }
 .push{
-    margin-left: 290px;
+    padding-left: 290px;
     transition: all .1s linear;
     width: 100%;
 }

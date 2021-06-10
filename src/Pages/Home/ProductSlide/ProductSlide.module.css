@@ -22,9 +22,15 @@
  
  .slideContainer{
   display: flex;
-  justify-content: space-between;
-
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: scroll;
 }
+
 .slide{
   padding: 5px;
 }
+
+ .slideContainer::-webkit-scrollbar{
+    display: none;
+} 

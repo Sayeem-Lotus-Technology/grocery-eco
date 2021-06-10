@@ -1,3 +1,4 @@
+import OrderHistoryPage from "../../OrderHistory/OrderHistoryPage";
 import ChangePassword from "./ChangePassword/changePassword";
 import EditAccount from "./EditAccount/EditAccount";
 import OrderHistory from "./OrderHistory/OrderHistory";
@@ -18,9 +19,6 @@ const RenderPage = ({ id }) => {
         case 3:
             render = <ShippingAddress />
             break;
-        case 4:
-                render=<OrderHistory/>
-                break
         default:
             render = <div>Somthing is wrong to render</div>
             break;

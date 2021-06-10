@@ -14,8 +14,8 @@ const CustomerDashBoard = () => {
 
     const lists = [
         { id: 1, title: "Edit Account", }, { id: 2, title: "Change Pasword" },
-        { id: 3, title: "Shipping Address" }, { id: 4, title: "Order History" },
-        { id: 5, title: "Payment Status" }, { id: 6, title: "Logout" }
+        { id: 3, title: "Shipping Address" }, 
+        { id: 4, title: "Payment Status" }, { id: 5, title: "Logout" }
     ]
 
     return (

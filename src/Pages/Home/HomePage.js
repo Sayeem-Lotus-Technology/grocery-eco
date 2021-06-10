@@ -14,18 +14,8 @@ const HomePage = () => {
     return ( 
         <div className={classes.homepage}>
 
-                    {/* <div className={classes.slideContainer}>
-                        <div className={classes.slide}>
-                            <ProductSlide />
-                        </div> 
-                        <div className={classes.slide}>
-                            <ProductSlide />
-                        </div> 
-                        <div className={classes.slide}>
-                            <ProductSlide />
-                        </div>     
-                    </div> */}
-
+                <ProductSlide/>
+                
             <div className={classes.coverImageContainer}>
                 <img src={coverImage} alt="" />
                 <div className={classes.coverSearch}>

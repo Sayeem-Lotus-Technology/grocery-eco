@@ -1,7 +1,7 @@
 import classes from "./productAll.module.css"
 import Cart from "../../Components/Cart/cart"
 import SelectedInput from "../../Components/SelectedInput/selectedInput"
-import { useState } from "react"
+
 const ProductAll = () => {
     const productTypes = ["one", "two", "three"]
     const shipsTypes = ["one", "two", "three"]
@@ -15,7 +15,7 @@ const ProductAll = () => {
     // });
 
     return (
-        <div className={classes.productAll} style={{ paddingTop: "170px" }}>
+        <div className={classes.productAll}>
             <div className={classes.selectFormComponents}>
                 <SelectedInput customStyle={{ width: "32%" }} id="selectProduct" type="modal" defaultValue="Select Product Type" options={productTypes} />
                 <SelectedInput customStyle={{ width: "32%" }} id="shipsForm" type="modal" defaultValue="Ships Form" options={shipsTypes} />

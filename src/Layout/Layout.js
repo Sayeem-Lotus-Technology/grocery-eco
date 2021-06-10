@@ -6,7 +6,9 @@ import TopNavWithoutSearch from "../Components/Navbar/TopNavWithoutSearch/TopNav
 import SideNav from "../Components/SideNav/SideNav";
 import LoginPage from "../Pages/Account/LoginPage";
 import SignUpPage from "../Pages/Account/SignUpPage";
+import AddToCard from "../Pages/AddToCard/AddToCard";
 import CustomerDashBoard from "../Pages/CustomerDashBoard/CustomerDashBoard";
+import OrderHistory from "../Pages/CustomerDashBoard/SubPages/OrderHistory/OrderHistory";
 import HomePage from "../Pages/Home/HomePage";
 import OrderHistoryPage from "../Pages/OrderHistory/OrderHistoryPage";
 import ProductAll from "../Pages/ProductAll/productAll";
@@ -27,6 +29,7 @@ function Layout() {
                         <SideNav />
                     </div>
                     <div  className={sideBarOn?classes.push:classes.mainScreen}>
+                        <AddToCard />
                     <Switch >  
                         <Route exact path='/'><HomePage /></Route>
                         <Route exact path='/profile'><Profile/></Route>

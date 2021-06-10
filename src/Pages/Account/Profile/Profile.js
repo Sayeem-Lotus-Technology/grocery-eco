@@ -49,10 +49,10 @@ function Profile(props) {
           <h1>Profile</h1>
         </Link>
 
-        <div className={classes.profile}>
-            <img src={menuIcon} alt="menu" />
+        <Link to="/orderHistory" onClick={()=>props.setProfileShow(false)} className={classes.profile}>
+          <img src={menuIcon} alt="" />
           <h1>Order History</h1>
-        </div>
+        </Link>
 
         <div className={classes.profile}>
           <img src={settingIcon} alt="setting" />

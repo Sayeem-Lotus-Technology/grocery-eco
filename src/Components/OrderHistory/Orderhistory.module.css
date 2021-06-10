@@ -354,7 +354,7 @@
 
 /* responsive */
 
-@media (max-width:1250px) { 
+@media (max-width:991px) { 
 
    /* Order status */
    .order_history{
