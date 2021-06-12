@@ -1,9 +1,9 @@
 import React from 'react'
-import ContactInformation from '../../Components/Check_out/ContactInformation'
-import OrderReview from '../../Components/Check_out/OrderReview'
-import PaymentMethod from '../../Components/Check_out/PaymentMethod'
-import ShippingInfo from '../../Components/Check_out/ShippingInfo'
-import BillingSummery from '../../Components/Check_out/BillingSummery'
+import ShippingInfo from './SubPage/ShippingInfo'
+import PaymentMethod from "./SubPage/PaymentMethod"
+import ContactInformation from "./SubPage/ContactInformation"
+import OrderReview from "./SubPage/OrderReview"
+import BillingSummery from "./SubPage/BillingSummery"
 import classes from "./CheckOut.module.css"
 function CheckOut() {
     return (

@@ -1,5 +1,5 @@
 .customerDashBoard{
-
+ 
 }
 
 .customerDashBoard .dashboardContainer{
@@ -7,21 +7,33 @@
     background-color: white;
 }
 .customerDashBoard .dashboardSidebar{
-
+    background-color: #4F4F4F;
+    width: 300px;
 }
+.customerDashBoard .dashboardSidebar .profileContainer{
+    padding: 10px;
+}
+.customerDashBoard .dashboardSidebar .listContainer{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.customerDashBoard .dashboardSidebar .listItem{
+    margin: 12px 0px;
+    cursor: pointer;
+    color: white;
+    padding: 5px 0px 5px 20px;;
+}
+
 .customerDashBoard .dashboardContent{
     padding: 30px;
     width: 100%;
+    overflow-x: auto;
 }
 
-.customerDashBoard .wrapper{
-    border-radius: 10px;
-    background-color: #4F4F4F;
-    padding: 10px;
-    width: 250px
-}
 
-.customerDashBoard .imgWrapper{
+.customerDashBoard .profileContainer .imgWrapper{
     background: rgb(53 53 53);
     border-radius: 10px;
     text-align: center;
@@ -30,7 +42,7 @@
     margin-bottom: 32px
 }
 
-.customerDashBoard  .imgWrapper img{
+.customerDashBoard .profileContainer  .imgWrapper img{
     width: 100px;
     height: 100px;
 }
@@ -42,22 +54,8 @@
 .customerDashBoard .subTitle{
     font-size: 8px;
 }
-.customerDashBoard .listWrapper{
-    font-weight: 500;
-    font-size: 16px;
-    color: #C8C8C8;
-    list-style: none;
-}
-.customerDashBoard .listItem{
-    margin: 12px 0px;
-    padding: 3px;
-    cursor: pointer;
-}
-.customerDashBoard .listItem:hover{
-    color: white;
-}
-.customerDashBoard .active {
+
+.customerDashBoard .listContainer .listItem:hover, .customerDashBoard .listContainer .active {
     background-color: white;
-    color: #219653;
-    border-radius: 3px;
+    color: green;
 }

@@ -16,11 +16,13 @@ const Cart = (props) => {
     const icon = <i className="fas fa-plus"></i>
     return (
         <div>
-            <div onClick={()=>history.push("/productView")} className={classes.cartContainer} style={props.styles}>
-                <img src={cartObj.img} alt="" />
+            <div className={classes.cartContainer} style={props.styles}>
+               <div className={classes.clickableArea} onClick={()=>history.push("/productView")}>
+               <img src={cartObj.img} alt="" />
                 <p className={classes.title}>{cartObj.title}</p>
                 <p className={classes.text}>{cartObj.ammount}, <span>pricing</span></p>
                 <p className={classes.price}>${cartObj.price}</p>
+               </div>
                 <Button onClicked={()=>dispatch(addItem({id:1,title:"sas"}))} icon={icon} title="Add to Cart" styles={{ fontSize: "12px", height: "32px", marginTop: "15px" }} />
             </div>
         </div>

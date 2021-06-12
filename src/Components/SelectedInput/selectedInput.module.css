@@ -16,6 +16,9 @@
   border-radius: 6px;
   padding: 6px 8px;
 }
+.inputContainer span{
+  cursor: pointer;
+}
 .inputContainer svg {
   transition: all 0.25s ease;
 }

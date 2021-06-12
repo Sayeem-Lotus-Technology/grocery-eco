@@ -14,3 +14,7 @@
 .customRadio input[type="radio"]{
 cursor: pointer;
 }
+.customRadio span{
+    cursor: pointer;
+    margin-left: 10px;
+}

@@ -12,7 +12,6 @@ p{
     border-radius: 18px;
     padding:20px;
     width: 200px;
-    cursor: pointer;
 }
 .cartContainer img{
     height: 100px;
@@ -32,3 +31,6 @@ p{
     font-size: 18px;
 }
 
+.cartContainer .clickableArea{
+    cursor: pointer;
+}

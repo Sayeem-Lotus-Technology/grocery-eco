@@ -14,8 +14,8 @@ const CustomerDashBoard = () => {
 
     const lists = [
         { id: 1, title: "Edit Account", }, { id: 2, title: "Change Pasword" },
-        { id: 3, title: "Shipping Address" }, 
-        { id: 4, title: "Payment Status" }, { id: 5, title: "Logout" }
+        { id: 3, title: "Shipping Address" },{id:4, title:"Order List"}, 
+        { id: 5, title: "Payment Status" }, { id: 6, title: "Logout" }
     ]
 
     return (
@@ -24,19 +24,21 @@ const CustomerDashBoard = () => {
             <div className="container-fluid">
                 <div className="dashboardContainer">
                     <div className="dashboardSidebar">
-                        <div className="wrapper">
-                            <div className="imgWrapper">
-                                <img src={customer.img} alt="" />
-                                <p className="title">
-                                    {customer.name}
-                                </p>
-                                <p className="subTitle">
-                                    {customer.join}
-                                </p>
+                        <div className="">
+                            <div className="profileContainer">
+                                <div className="imgWrapper">
+                                    <img src={customer.img} alt="" />
+                                    <p className="title">
+                                        {customer.name}
+                                    </p>
+                                    <p className="subTitle">
+                                        {customer.join}
+                                    </p>
+                                </div>
                             </div>
-                            <div className="listWrapper">
+                            <div className="listContainer">
                                 {lists?.map((item) => (
-                                    <div onClick={() => setActiveItem(item.id)} className={item.id === activeItem ? "listItem active" : "listItem"}>
+                                    <div onClick={() => setActiveItem(item.id)} className={item.id === activeItem ? "listItem active": "listItem"}>
                                         <li>{item.title}</li>
                                     </div>
                                 ))}

@@ -10,7 +10,7 @@ const SelectedInput = ({ defaultValue, options, type, id, customStyle }) => {
     // const [icon, setIcon]=useState(down)
 
     window.addEventListener('click', (e) => {
-        if (selBox && !document.getElementById(id).contains(e.target)) {
+        if (document.getElementById(id) && selBox && !document.getElementById(id).contains(e.target)) {
             setSelBox(false)
         }
     });
@@ -36,14 +36,16 @@ const SelectedInput = ({ defaultValue, options, type, id, customStyle }) => {
     }
 
     const changeInputValue = (op) => {
+        console.log("ksakshaks", selBox);
         setInputValue(op)
         setSelBox(false)
+        
     }
 
-    console.log(selBox)
+
     return (
-        <div style={customStyle && customStyle} id={id} className={classes.selectedInput} onClick={() => setSelBox(true)}>
-            <div className={!selBox ? classes.inputContainer : classes.inputContainer + " " + classes.rotate}>
+        <div style={customStyle && customStyle} id={id} className={classes.selectedInput} >
+            <div onClick={() => setSelBox(true)} className={!selBox ? classes.inputContainer : classes.inputContainer + " " + classes.rotate}>
                 <input type="text" value={inputValue} onChange={(e)=>setInputValue(e.target.value)} placeholder="select from" />
                 <span><i className='fas fa-chevron-down'></i></span>
             </div>

@@ -2,6 +2,7 @@ import OrderHistoryPage from "../../OrderHistory/OrderHistoryPage";
 import ChangePassword from "./ChangePassword/changePassword";
 import EditAccount from "./EditAccount/EditAccount";
 import OrderHistory from "./OrderHistory/OrderHistory";
+import OrderList from "./orderList/OrderListTable";
 import ShippingAddress from "./ShippingAddress/ShippingAddress";
 
 const RenderPage = ({ id }) => {
@@ -18,6 +19,9 @@ const RenderPage = ({ id }) => {
             break;
         case 3:
             render = <ShippingAddress />
+            break;
+        case 4:
+            render = <OrderList/>
             break;
         default:
             render = <div>Somthing is wrong to render</div>

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import Button from "../../../Components/Button/button";
 
 function Profile(props) {
-  const [user, setUser]=useState(true)
+  const [user, setUser]=useState(false)
  
     window.addEventListener('click', (e) => {
         if ( !document.getElementById('topNav').contains(e.target)) {

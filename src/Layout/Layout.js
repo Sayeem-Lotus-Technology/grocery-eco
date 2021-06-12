@@ -7,6 +7,7 @@ import SideNav from "../Components/SideNav/SideNav";
 import LoginPage from "../Pages/Account/LoginPage";
 import SignUpPage from "../Pages/Account/SignUpPage";
 import AddToCard from "../Pages/AddToCard/AddToCard";
+import CheckOut from "../Pages/Checkout/CheckOut";
 import CustomerDashBoard from "../Pages/CustomerDashBoard/CustomerDashBoard";
 import OrderHistory from "../Pages/CustomerDashBoard/SubPages/OrderHistory/OrderHistory";
 import HomePage from "../Pages/Home/HomePage";
@@ -38,6 +39,7 @@ function Layout() {
                         <Route path="/customer/dashboard/"><CustomerDashBoard/> </Route> 
                         <Route path="/account/login" ><LoginPage/></Route>
                         <Route path="/account/signup"><SignUpPage/> </Route>
+                        <Route path="/checkout/"><CheckOut/> </Route>
                         <Route path="/orderHistory"><OrderHistoryPage/> </Route>
 
                         <Route path='/'> </Route>
